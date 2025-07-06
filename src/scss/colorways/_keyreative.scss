@@ -1,0 +1,138 @@
+@use 'sass:color';
+// Keyreative
+@use '../gmk-abs';
+@use '../pantone';
+
+.dsa-drifter-key {
+  background: #e5e1e6;
+  color: #222222;
+  input {
+    background: color.adjust(#e5e1e6, $lightness: 40%);
+  }
+}
+.dsa-drifter-mod {
+  background: #9b2242;
+  color: #71dbd4;
+  input {
+    background: color.adjust(#9b2242, $lightness: 40%);
+  }
+}
+.dsa-drifter-kb {
+}
+
+.dsa-milkshake-key,
+.dsa-milkshake-mod {
+  background: white;
+  color: #232d43;
+  input,
+  .key-contents,
+  .key-contents:empty,
+  .key-contents::before {
+    background: color.adjust(white, $lightness: -4%);
+    color: #232d43;
+    border-color: color.mix(color.adjust(white, $lightness: -4%), #232d43);
+  }
+}
+.dsa-milkshake-esc {
+  background: #f0849e;
+  color: #232d43;
+}
+.dsa-milkshake-backspace {
+  background: #f1ed8a;
+  color: #232d43;
+}
+.dsa-milkshake-enter {
+  background: #8ce1ce;
+  color: #232d43;
+}
+.dsa-milkshake-alt {
+  background: #75cde8;
+  color: #232d43;
+}
+.dsa-milkshake-os {
+  background: #c091ed;
+  color: #232d43;
+}
+
+.kat-hyperfuse-key {
+  background: gmk-abs.$color-gmk-abs-2M;
+  color: gmk-abs.$color-gmk-abs-DY;
+  input,
+  .key-contents,
+  .key-contents:empty,
+  .key-contents::before {
+    background: color.adjust(gmk-abs.$color-gmk-abs-2M, $lightness: 6%);
+    color: color.adjust(gmk-abs.$color-gmk-abs-DY, $lightness: -7%);
+    border-color: color.mix(
+      gmk-abs.$color-gmk-abs-2M,
+      gmk-abs.$color-gmk-abs-DY
+    );
+  }
+}
+.kat-hyperfuse-mod {
+  background: color.adjust(gmk-abs.$color-gmk-abs-2B, $lightness: -6%);
+  color: color.adjust(gmk-abs.$color-gmk-abs-TU2, $lightness: 6%);
+  input,
+  .key-contents,
+  .key-contents:empty,
+  .key-contents::before {
+    background: color.adjust(gmk-abs.$color-gmk-abs-2B, $lightness: -12%);
+    color: color.adjust(gmk-abs.$color-gmk-abs-TU2, $lightness: 12%);
+    border-color: color.mix(
+      gmk-abs.$color-gmk-abs-2B,
+      gmk-abs.$color-gmk-abs-TU2
+    );
+  }
+}
+.kat-hyperfuse-accent {
+  background: gmk-abs.$color-gmk-abs-TU2;
+  color: gmk-abs.$color-gmk-abs-DY;
+  input {
+    background: color.adjust(gmk-abs.$color-gmk-abs-TU2, $lightness: 40%);
+  }
+}
+.kat-hyperfuse-accent2 {
+  background: gmk-abs.$color-gmk-abs-DY;
+  color: gmk-abs.$color-gmk-abs-TU2;
+  input {
+    background: color.adjust(gmk-abs.$color-gmk-abs-DY, $lightness: 40%);
+  }
+}
+
+.kat-oasis-key {
+  background: pantone.$color-pantone-155C;
+  color: pantone.$color-pantone-7617C;
+  input,
+  .key-contents,
+  .key-contents:empty,
+  .key-contents::before {
+    background: color.adjust(pantone.$color-pantone-155C, $lightness: 4%);
+    color: pantone.$color-pantone-7617C;
+    border-color: color.mix(
+      pantone.$color-pantone-155C,
+      pantone.$color-pantone-7617C
+    );
+  }
+}
+.kat-oasis-mod {
+  background: pantone.$color-pantone-317C;
+  color: pantone.$color-pantone-7617C;
+  input,
+  .key-contents,
+  .key-contents:empty,
+  .key-contents::before {
+    background: color.adjust(pantone.$color-pantone-317C, $lightness: 4%);
+    color: pantone.$color-pantone-7617C;
+    border-color: color.mix(
+      pantone.$color-pantone-317C,
+      pantone.$color-pantone-7617C
+    );
+  }
+}
+.kat-oasis-accent {
+  background: pantone.$color-pantone-7617C;
+  color: pantone.$color-pantone-155C;
+  input {
+    background: color.adjust(pantone.$color-pantone-7617C, $lightness: 40%);
+  }
+}

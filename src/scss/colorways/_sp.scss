@@ -1,0 +1,430 @@
+@use 'sass:color';
+@use '../sp-abs';
+@use '../sp-pbt';
+@use '../pantone';
+@use '../qmk_colors' as qmk-colors;
+// Signature Plastics keysets
+
+.dcs-midnight-kb {
+  // placeholder
+}
+
+.dcs-midnight-key {
+  background: sp-abs.$color-sp-abs-GB;
+  color: sp-abs.$color-sp-abs-VCO;
+  input,
+  .key-contents,
+  .key-contents:empty,
+  .key-contents::before {
+    background: sp-abs.$color-sp-abs-GB;
+    color: color.adjust(sp-abs.$color-sp-abs-VCO, $lightness: 1%);
+    border-color: color.mix(
+      sp-abs.$color-sp-abs-GB,
+      color.adjust(sp-abs.$color-sp-abs-VCO, $lightness: 1%)
+    );
+  }
+}
+
+.dcs-midnight-mod {
+  background: sp-abs.$color-sp-abs-GEW;
+  color: sp-abs.$color-sp-abs-VCO;
+  input,
+  .key-contents,
+  .key-contents:empty,
+  .key-contents::before {
+    background: sp-abs.$color-sp-abs-GEW;
+    color: color.adjust(sp-abs.$color-sp-abs-VCO, $lightness: 14%);
+    border-color: color.mix(
+      sp-abs.$color-sp-abs-GEW,
+      color.adjust(sp-abs.$color-sp-abs-VCO, $lightness: 14%)
+    );
+  }
+}
+
+.dcs-midnight-accent {
+  background: sp-abs.$color-sp-abs-GEW;
+  color: sp-abs.$color-sp-abs-YCH;
+}
+
+.dcs-midnight-twilight-kb {
+  // placeholder
+}
+
+.dcs-midnight-twilight-key {
+  background: sp-abs.$color-sp-abs-GB;
+  color: sp-abs.$color-sp-abs-VCO;
+  input,
+  .key-contents,
+  .key-contents:empty,
+  .key-contents::before {
+    background: sp-abs.$color-sp-abs-GB;
+    color: color.adjust(sp-abs.$color-sp-abs-VCO, $lightness: 1%);
+    border-color: color.mix(
+      sp-abs.$color-sp-abs-GB,
+      color.adjust(sp-abs.$color-sp-abs-VCO, $lightness: 1%)
+    );
+  }
+}
+
+.dcs-midnight-twilight-mod {
+  background: sp-abs.$color-sp-abs-VCO;
+  color: qmk-colors.$qmk-black;
+  input,
+  .key-contents,
+  .key-contents:empty,
+  .key-contents::before {
+    background: sp-abs.$color-sp-abs-VCO;
+    color: qmk-colors.$qmk-black;
+    border-color: color.mix(sp-abs.$color-sp-abs-VCO, qmk-colors.$qmk-black);
+  }
+}
+
+.dsa-galaxy-class-key {
+  background: sp-pbt.$color-sp-pbt-BFE;
+  color: sp-pbt.$color-sp-pbt-BLACK;
+  input,
+  .key-contents,
+  .key-contents:empty,
+  .key-contents::before {
+    background: color.adjust(sp-pbt.$color-sp-pbt-BFE, $lightness: 4%);
+    color: sp-pbt.$color-sp-pbt-BLACK;
+    border-color: color.mix(
+      color.adjust(sp-pbt.$color-sp-pbt-BFE, $lightness: 4%),
+      sp-pbt.$color-sp-pbt-BLACK
+    );
+  }
+}
+.dsa-galaxy-class-mod {
+  // yellow
+  background: pantone.$color-pantone-141C;
+  color: sp-pbt.$color-sp-pbt-BLACK;
+  input,
+  .key-contents,
+  .key-contents:empty,
+  .key-contents::before {
+    background: color.adjust(pantone.$color-pantone-141C, $lightness: 4%);
+    color: sp-pbt.$color-sp-pbt-BLACK;
+    border-color: color.mix(
+      color.adjust(pantone.$color-pantone-141C, $lightness: 4%),
+      sp-pbt.$color-sp-pbt-BLACK
+    );
+  }
+}
+.dsa-galaxy-class-purple {
+  background: sp-pbt.$color-sp-pbt-RCB;
+  color: sp-pbt.$color-sp-pbt-BLACK;
+  input {
+    background: color.adjust(sp-pbt.$color-sp-pbt-RCB, $lightness: 40%);
+  }
+}
+.dsa-galaxy-class-darker-blue {
+  background: sp-pbt.$color-sp-pbt-BDJ;
+  color: sp-pbt.$color-sp-pbt-BLACK;
+  input {
+    background: color.adjust(sp-pbt.$color-sp-pbt-BDJ, $lightness: 40%);
+  }
+}
+.dsa-galaxy-class-pink {
+  background: sp-pbt.$color-sp-pbt-RCA;
+  color: sp-pbt.$color-sp-pbt-BLACK;
+  input {
+    background: color.adjust(sp-pbt.$color-sp-pbt-RCA, $lightness: 40%);
+  }
+}
+.dsa-galaxy-class-light-blue {
+  background: sp-pbt.$color-sp-pbt-BFE;
+  color: sp-pbt.$color-sp-pbt-BLACK;
+  input {
+    background: color.adjust(sp-pbt.$color-sp-pbt-BFE, $lightness: 40%);
+  }
+}
+.dsa-galaxy-class-gray {
+  background: sp-pbt.$color-sp-pbt-GQT;
+  color: sp-pbt.$color-sp-pbt-BLACK;
+  input {
+    background: color.adjust(sp-pbt.$color-sp-pbt-GQT, $lightness: 40%);
+  }
+}
+.dsa-galaxy-class-kb {
+}
+
+.sa-bliss-key,
+.sa-bliss-mod {
+  background: sp-abs.$color-sp-abs-GC;
+  color: pantone.$color-pantone-13-1406TCX;
+  input,
+  .key-contents,
+  .key-contents:empty,
+  .key-contents::before {
+    background: color.adjust(sp-abs.$color-sp-abs-GC, $lightness: -4%);
+    color: color.adjust(pantone.$color-pantone-13-1406TCX, $lightness: 5%);
+    border-color: color.mix(
+      color.adjust(sp-abs.$color-sp-abs-GC, $lightness: -4%),
+      color.adjust(pantone.$color-pantone-13-1406TCX, $lightness: 5%)
+    );
+  }
+}
+.sa-bliss-accent {
+  background: pantone.$color-pantone-13-1406TCX;
+  color: sp-abs.$color-sp-abs-GC;
+}
+.sa-bliss-kb {
+  // placeholder
+}
+
+.sa-carbon-key {
+  background: sp-abs.$color-sp-abs-WBO;
+  color: sp-abs.$color-sp-abs-GQM;
+  input,
+  .key-contents,
+  .key-contents:empty,
+  .key-contents::before {
+    background: color.adjust(sp-abs.$color-sp-abs-WBO, $lightness: 4%);
+    color: sp-abs.$color-sp-abs-GQM;
+    border-color: color.mix(
+      color.adjust(sp-abs.$color-sp-abs-WBO, $lightness: 4%),
+      sp-abs.$color-sp-abs-GQM
+    );
+  }
+}
+.sa-carbon-mod {
+  background: sp-abs.$color-sp-abs-GQM;
+  color: sp-abs.$color-sp-abs-OBC;
+  input,
+  .key-contents {
+    background: color.adjust(sp-abs.$color-sp-abs-GQM, $lightness: -4%);
+    color: color.adjust(sp-abs.$color-sp-abs-OBC, $lightness: 12%);
+    border-color: color.mix(
+      color.adjust(sp-abs.$color-sp-abs-GQM, $lightness: -4%),
+      color.adjust(sp-abs.$color-sp-abs-OBC, $lightness: 12%)
+    );
+  }
+}
+.sa-carbon-accent {
+  background: sp-abs.$color-sp-abs-OBC;
+  color: sp-abs.$color-sp-abs-GQM;
+}
+
+.sa-danger-zone-key {
+  background: sp-abs.$color-sp-abs-BFU;
+  color: sp-abs.$color-sp-abs-YY;
+  input,
+  .key-contents {
+    background: color.adjust(sp-abs.$color-sp-abs-BFU, $lightness: -4%);
+    color: sp-abs.$color-sp-abs-YY;
+    border-color: color.mix(
+      color.adjust(sp-abs.$color-sp-abs-BFU, $lightness: -4%),
+      sp-abs.$color-sp-abs-YY
+    );
+  }
+}
+.sa-danger-zone-mod {
+  background: sp-abs.$color-sp-abs-GSM;
+  color: sp-abs.$color-sp-abs-YY;
+  input,
+  .key-contents {
+    background: color.adjust(sp-abs.$color-sp-abs-GSM, $lightness: -5%);
+    color: color.adjust(sp-abs.$color-sp-abs-YY, $lightness: 13%);
+    border-color: color.mix(
+      color.adjust(sp-abs.$color-sp-abs-GSM, $lightness: -5%),
+      color.adjust(sp-abs.$color-sp-abs-YY, $lightness: 13%)
+    );
+  }
+}
+.sa-danger-zone-accent-yellow {
+  background: sp-abs.$color-sp-abs-YY;
+  color: sp-abs.$color-sp-abs-BFU;
+}
+.sa-danger-zone-accent-red {
+  background: sp-abs.$color-sp-abs-RAS;
+  color: sp-abs.$color-sp-abs-YY;
+}
+.sa-danger-zone-kb {
+}
+
+.sa-jukebox-key {
+  background: sp-abs.$color-sp-abs-TM;
+  color: sp-abs.$color-sp-abs-RN;
+  input,
+  .key-contents,
+  .key-contents:empty,
+  .key-contents::before {
+    background: color.adjust(sp-abs.$color-sp-abs-TM, $lightness: 6%);
+    color: color.adjust(sp-abs.$color-sp-abs-RN, $lightness: -8%);
+    border-color: color.mix(
+      color.adjust(sp-abs.$color-sp-abs-TM, $lightness: 6%),
+      color.adjust(sp-abs.$color-sp-abs-RN, $lightness: -8%)
+    );
+  }
+}
+.sa-jukebox-mod {
+  background: sp-abs.$color-sp-abs-VCO;
+  color: sp-abs.$color-sp-abs-RN;
+  input,
+  .key-contents,
+  .key-contents:empty,
+  .key-contents::before {
+    background: color.adjust(sp-abs.$color-sp-abs-VCO, $lightness: 12%);
+    color: color.adjust(sp-abs.$color-sp-abs-RN, $lightness: -10%);
+    border-color: color.mix(
+      color.adjust(sp-abs.$color-sp-abs-VCO, $lightness: 12%),
+      color.adjust(sp-abs.$color-sp-abs-RN, $lightness: -10%)
+    );
+  }
+}
+.sa-jukebox-accent {
+  background: sp-abs.$color-sp-abs-RN;
+  color: sp-abs.$color-sp-abs-TM;
+  input {
+    background: color.adjust(sp-abs.$color-sp-abs-RN, $lightness: 40%);
+  }
+}
+.sa-jukebox-kb {
+}
+
+.sa-modern-selectric-key {
+  background: sp-abs.$color-sp-abs-NN;
+  color: sp-abs.$color-sp-abs-WFK;
+  input,
+  .key-contents,
+  .key-contents:empty,
+  .key-contents::before {
+    background: color.adjust(sp-abs.$color-sp-abs-NN, $lightness: -4%);
+    color: sp-abs.$color-sp-abs-WFK;
+    border-color: color.mix(
+      color.adjust(sp-abs.$color-sp-abs-NN, $lightness: -4%),
+      sp-abs.$color-sp-abs-WFK
+    );
+  }
+}
+.sa-modern-selectric-mod {
+  background: sp-abs.$color-sp-abs-BDH;
+  color: sp-abs.$color-sp-abs-WFK;
+  input,
+  .key-contents,
+  .key-contents:empty,
+  .key-contents::before {
+    background: color.adjust(sp-abs.$color-sp-abs-BDH, $lightness: -4%);
+    color: sp-abs.$color-sp-abs-WFK;
+    border-color: color.mix(
+      color.adjust(sp-abs.$color-sp-abs-BDH, $lightness: -4%),
+      sp-abs.$color-sp-abs-WFK
+    );
+  }
+}
+.sa-modern-selectric-kb {
+}
+
+.sa-nantucket-selectric-key {
+  background: sp-abs.$color-sp-abs-WV;
+  color: sp-abs.$color-sp-abs-BBI;
+  input,
+  .key-contents,
+  .key-contents:empty,
+  .key-contents::before {
+    background: color.adjust(sp-abs.$color-sp-abs-WV, $lightness: 4%);
+    color: sp-abs.$color-sp-abs-BBI;
+    border-color: color.mix(
+      color.adjust(sp-abs.$color-sp-abs-WV, $lightness: 4%),
+      sp-abs.$color-sp-abs-BBI
+    );
+  }
+}
+.sa-nantucket-selectric-mod {
+  background: sp-abs.$color-sp-abs-BBI;
+  color: sp-abs.$color-sp-abs-YCF;
+  input,
+  .key-contents,
+  .key-contents:empty,
+  .key-contents::before {
+    background: color.adjust(sp-abs.$color-sp-abs-BBI, $lightness: -4%);
+    color: sp-abs.$color-sp-abs-YCF;
+    border-color: color.mix(
+      color.adjust(sp-abs.$color-sp-abs-BBI, $lightness: -4%),
+      sp-abs.$color-sp-abs-YCF
+    );
+  }
+}
+.sa-nantucket-selectric-kb {
+}
+
+.sa-oblivion-hagoromo-key {
+  background: sp-abs.$color-sp-abs-WFK;
+  color: sp-abs.$color-sp-abs-GD;
+  input,
+  .key-contents,
+  .key-contents:empty,
+  .key-contents::before {
+    background: color.adjust(sp-abs.$color-sp-abs-WFK, $lightness: 4%);
+    color: color.adjust(sp-abs.$color-sp-abs-GD, $lightness: -10%);
+    border-color: color.mix(
+      color.adjust(sp-abs.$color-sp-abs-WFK, $lightness: 4%),
+      color.adjust(sp-abs.$color-sp-abs-GD, $lightness: -10%)
+    );
+  }
+}
+.sa-oblivion-hagoromo-mod {
+  background: sp-abs.$color-sp-abs-GQM;
+  color: sp-abs.$color-sp-abs-GAL;
+  input,
+  .key-contents,
+  .key-contents:empty,
+  .key-contents::before {
+    background: color.adjust(sp-abs.$color-sp-abs-GQM, $lightness: -4%);
+    color: color.adjust(sp-abs.$color-sp-abs-GAL, $lightness: 5%);
+    border-color: color.mix(
+      color.adjust(sp-abs.$color-sp-abs-GQM, $lightness: -4%),
+      color.adjust(sp-abs.$color-sp-abs-GAL, $lightness: 5%)
+    );
+  }
+}
+.sa-oblivion-hagoromo-accent {
+  background: sp-abs.$color-sp-abs-RAS;
+  color: sp-abs.$color-sp-abs-GAL;
+}
+.sa-oblivion-hagoromo-kb {
+}
+
+.sa-vilebloom-key,
+.sa-vilebloom-mod {
+  background: pantone.$color-pantone-7699C;
+  color: sp-abs.$color-sp-abs-WFK;
+  input,
+  .key-contents,
+  .key-contents:empty,
+  .key-contents::before {
+    background: color.adjust(pantone.$color-pantone-7699C, $lightness: -4%);
+    color: color.adjust(sp-abs.$color-sp-abs-WFK, $lightness: 8%);
+    border-color: color.mix(
+      color.adjust(pantone.$color-pantone-7699C, $lightness: -4%),
+      color.adjust(sp-abs.$color-sp-abs-WFK, $lightness: 8%)
+    );
+  }
+}
+
+.sa-vilebloom-accent1 {
+  background: pantone.$color-pantone-474U;
+  color: pantone.$color-pantone-7699C;
+  input {
+    background: color.adjust(pantone.$color-pantone-474U, $lightness: 40%);
+  }
+}
+
+.sa-vilebloom-accent2 {
+  background: pantone.$color-pantone-177C;
+  color: sp-abs.$color-sp-abs-WFK;
+  input {
+    background: color.adjust(pantone.$color-pantone-177C, $lightness: 40%);
+  }
+}
+
+.sa-vilebloom-accent3 {
+  background: pantone.$color-pantone-2046U;
+  color: sp-abs.$color-sp-abs-WFK;
+  input {
+    background: color.adjust(pantone.$color-pantone-2046U, $lightness: 40%);
+  }
+}
+
+.sa-vilebloom-kb {
+}

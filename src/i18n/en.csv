@@ -1,0 +1,209 @@
+Key,Translation
+apiVersion,API Version
+apiVersionPrefix,AlphaAPI
+favoriteColor,Favorite Colorway
+favoriteKeyboard,Favorite Keyboard
+hostedOn,Hosted on GitHub Pages
+jobsAhead,Ahead
+jobsWaiting,job(s) waiting
+maintain,This project is maintained by QMK collaborators and contributors like you!
+ready,Ready
+searchKeycodes,search
+serverIs,Service
+serverStatus,Server Status
+settings,Settings
+statsTemplate,"
+Loaded {layers} layers and {count} keycodes. Defined {any} Any key keycodes
+"
+ColorwayTip:title,Ctrl + Alt + N to cycle next colorway
+compile:label,Compile
+compile:title,Compile Keymap
+downloadFirmware:label,Firmware
+downloadFirmware:title,Download firmware file for flashing
+downloadJSON:label,Keymap.JSON
+downloadJSON:title,Download this QMK Keymap JSON file
+downloadKeymap:label,keymap only
+downloadKeymap:title,Download keymap.c only
+downloadSource:label,Full Source
+downloadSource:title,Download QMK Firmware code
+downloadToolbox:label,Get QMK Toolbox
+errors:invalidQMKKeymap,"Sorry, that doesn't appear to be a valid QMK keymap file."
+errors:kbfirmwareJSONUnsupported,"Sorry, QMK Configurator doesn't support importing kbfirmware JSON files."
+errors:unknownJSON,"Sorry, this doesn't appear to be a QMK keymap file."
+errors:unsupportedBrowser,You're using a non supported browser. Please use
+flashFile:label,Custom-Flash
+flashFile:title,Flash User Selected file to MCU
+flashFirmware:label,Auto-Flash
+flashFirmware:title,Automatically Flash compiled Firmware to MCU
+githubKeyboardFolder:title,Open keyboard folder on GitHub
+help:label,Summon Wizard
+importJSON:title,Upload a QMK Keymap JSON file
+importUrlJSON:title,Import QMK Keymap JSON from URL
+keyboard:label,keyboard
+keycodes:label,Keycodes
+keycodesRef:label,Keycodes reference
+keycodesTab:ANSI:label,ANSI
+keycodesTab:AppMediaMouse:label,"App, Media and Mouse"
+keycodesTab:ISO/JIS:label,ISO/JIS
+keycodesTab:KeyboardSettings:label,Keyboard Settings
+keycodesTab:Quantum:label,Quantum
+keycodesTab:Steno:label,Steno
+keymap:label,Keymap
+keymapHelp:label,Help
+keymapHelp:title,How do I use keymap.json?
+keymapName:label,Keymap Name
+keymapName:placeholder,custom keymap name
+layer:confirm,Are you sure you want to clear layer?
+layer:label,Layer
+layer:title,Clear Layer
+layout:label,layout
+loadDefault:label,Load Default
+loadDefault:title,Load default keymap from QMK Firmware
+potato:1,Henry Spalding first planted potatoes in Idaho in 1837
+potato:10,China is the world’s largest potato producer.
+potato:11,Potatoes were the first vegetable grown in space.
+potato:12,Potatoes are totally gluten-free.
+potato:13,One of the most basic Incan measurements of time was the time it took to cook a potato.
+potato:14,"If a potato is exposed to light while growing, it will turn green and become poisonous."
+potato:15,"It takes 10,000 pounds of potatoes to make 2,500 pounds of potato chips."
+potato:16,Today there are more than 4000 different kinds of potatoes.
+potato:17,"Potatoes belong to a small family, the Nightshade or Solanaceae family."
+potato:18,"During the Alaskan Klondike gold rush, (1897-1898) potatoes were practically worth their weight in gold."
+potato:19,"Sir Walter Raleigh introduced potatoes to Ireland in 1589 on the 40,000 acres of land near Cork."
+potato:2,“French Fries” were introduced to America when Thomas Jefferson served them at a White House dinner.
+potato:20,Potatoes are available year-round as they are harvested somewhere every month of the year.
+potato:21,"Native to Africa and Asia, yams vary in size from the size of a small potato up to the record size of 130 pounds."
+potato:22,August 19th and October 27th are National Potato Day.
+potato:23,"Potatoes are also used to brew alcoholic beverages such as vodka, potcheen, or akvavit."
+potato:24,"Potatoes are among the most environmentally friendly vegetables. They’re easy to grow, and don’t require massive amounts of fertilizer and chemical additives to thrive like many other vegetables do."
+potato:25,The potato originated in the region of southern Peru where it was first domesticated between 8000 BC and 5000 BC.
+potato:26,The word potato comes from the Spanish word patata.
+potato:27,Potato plants are usually pollinated by insects such as bumblebees.
+potato:28,A potato is about 80% water and 20% solid.
+potato:3,American potato lovers consumed more than 4 million tons of French Fries in various shapes and sizes in 2017.
+potato:4,"Potatoes are a powerful aphrodisiac, says a physician in Ireland."
+potato:5,The average American eats 140 pounds of potatoes per year. Germans eat more than 200 pounds per year.
+potato:6,The largest potato grown was 18 pounds and 4 ounces according to the Guinness Book of World Records. It was grown in England in 1795.
+potato:7,"Potatoes are the world’s fourth food staple – after wheat, corn and rice."
+potato:8,Potatoes are grown in more than 125 countries.
+potato:9,Every year enough potatoes are grown worldwide to cover a four-lane motorway circling the world six times.
+print:anonymous:label,Anonymous
+print:author:placeholder,Optionally Your Name
+print:author:title,Author
+print:back:title,Back
+print:date:title,Date
+print:keyboard:label,Keyboard
+print:layer:label,Layer
+print:layout:label,Layout
+print:notes:empty,My awesome keymap
+print:notes:placeholder,Notes about this configuration
+print:notes:title,Notes
+print:print:title,Print
+print:source:title,Source
+printKeymap:label,Print Keymap
+printKeymap:title,Print Keymap Layers
+settingsPanel:clearLayer:help,Change the default keycode for clear layer
+settingsPanel:clearLayer:title,Clear Layer Default
+settingsPanel:darkmode:help,Use QMK Configurator's dark theme
+settingsPanel:darkmode:label,Dark Mode
+settingsPanel:fastInput:help,Input keys via keyboard without clicking each position.
+settingsPanel:fastInput:label,Fast Input
+settingsPanel:fastInput:title,ctrl + alt + f
+settingsPanel:kcno:label,KC_NO
+settingsPanel:kctrns:label,KC_TRNS
+settingsPanel:language:help,Change the language of the user interface
+settingsPanel:language:title,Language
+settingsPanel:legendType:index,Index
+settingsPanel:legendType:keymap,Keymap
+settingsPanel:legendType:matrix,"Matrix (row, col)"
+settingsPanel:legendType:size,Size
+settingsPanel:legends:help,Change keycap display
+settingsPanel:legends:title,Legends
+settingsPanel:off:label,Off
+settingsPanel:on:label,On
+settingsPanel:osKeyboardLayout:help,Change the key legends to match with your host keyboard layout.
+settingsPanel:osKeyboardLayout:label:keymap_belgian,Belgian (Belgium)
+settingsPanel:osKeyboardLayout:label:keymap_bepo,French (BÉPO)
+settingsPanel:osKeyboardLayout:label:keymap_brazilian_abnt2,Portuguese (Brazil)
+settingsPanel:osKeyboardLayout:label:keymap_canadian_multilingual,French (Canadian multilingual)
+settingsPanel:osKeyboardLayout:label:keymap_colemak,Colemak
+settingsPanel:osKeyboardLayout:label:keymap_croatian,Croatian (Croatia)
+settingsPanel:osKeyboardLayout:label:keymap_czech,Czech (Czechia)
+settingsPanel:osKeyboardLayout:label:keymap_danish,Danish (Denmark)
+settingsPanel:osKeyboardLayout:label:keymap_dvorak,Dvorak (DSK)
+settingsPanel:osKeyboardLayout:label:keymap_dvorak_fr,French (Dvorak)
+settingsPanel:osKeyboardLayout:label:keymap_dvorak_programmer,Programmer's Dvorak
+settingsPanel:osKeyboardLayout:label:keymap_estonian,Estonian (Estonia)
+settingsPanel:osKeyboardLayout:label:keymap_finnish,Finnish (Finland)
+settingsPanel:osKeyboardLayout:label:keymap_french,French (France)
+settingsPanel:osKeyboardLayout:label:keymap_french_afnor,French (AFNOR)
+settingsPanel:osKeyboardLayout:label:keymap_french_mac_iso,French (Mac ISO)
+settingsPanel:osKeyboardLayout:label:keymap_german,German (Germany & Austria)
+settingsPanel:osKeyboardLayout:label:keymap_greek,Greek (Greece)
+settingsPanel:osKeyboardLayout:label:keymap_hebrew,Hebrew (Israel)
+settingsPanel:osKeyboardLayout:label:keymap_hungarian,Hungarian (Hungary)
+settingsPanel:osKeyboardLayout:label:keymap_icelandic,Icelandic (Iceland)
+settingsPanel:osKeyboardLayout:label:keymap_irish,English (Ireland)
+settingsPanel:osKeyboardLayout:label:keymap_italian,Italian (Italy)
+settingsPanel:osKeyboardLayout:label:keymap_italian_mac_ansi,Italian (Mac ANSI)
+settingsPanel:osKeyboardLayout:label:keymap_italian_mac_iso,Italian (Mac ISO)
+settingsPanel:osKeyboardLayout:label:keymap_japanese,Japanese JP106 (Japan)
+settingsPanel:osKeyboardLayout:label:keymap_korean,Korean (South Korea)
+settingsPanel:osKeyboardLayout:label:keymap_latvian,Latvian (Latvia)
+settingsPanel:osKeyboardLayout:label:keymap_lithuanian_azerty,Lithuanian AZERTY (Lithuania)
+settingsPanel:osKeyboardLayout:label:keymap_lithuanian_qwerty,Lithuanian QWERTY (Lithuania)
+settingsPanel:osKeyboardLayout:label:keymap_neo2,German (NEO 2)
+settingsPanel:osKeyboardLayout:label:keymap_norman,Norman
+settingsPanel:osKeyboardLayout:label:keymap_norwegian,Norwegian (Norway)
+settingsPanel:osKeyboardLayout:label:keymap_polish,Polish (Poland)
+settingsPanel:osKeyboardLayout:label:keymap_portuguese,Portuguese (Portugal)
+settingsPanel:osKeyboardLayout:label:keymap_portuguese_mac_iso,Portuguese (Mac ISO)
+settingsPanel:osKeyboardLayout:label:keymap_romanian,Romanian (Romania)
+settingsPanel:osKeyboardLayout:label:keymap_russian,Russian (Russia)
+settingsPanel:osKeyboardLayout:label:keymap_serbian,Serbian Cyrillic (Serbia)
+settingsPanel:osKeyboardLayout:label:keymap_serbian_latin,Serbian Latin (Serbia)
+settingsPanel:osKeyboardLayout:label:keymap_slovak,Slovak (Slovakia)
+settingsPanel:osKeyboardLayout:label:keymap_slovenian,Slovenian (Slovenia)
+settingsPanel:osKeyboardLayout:label:keymap_spanish,Spanish (Spain)
+settingsPanel:osKeyboardLayout:label:keymap_spanish_dvorak,Spanish (Dvorak)
+settingsPanel:osKeyboardLayout:label:keymap_spanish_latin_america,Spanish (Latin America)
+settingsPanel:osKeyboardLayout:label:keymap_swedish,Swedish (Sweden)
+settingsPanel:osKeyboardLayout:label:keymap_swedish_mac_ansi,Swedish (Mac ANSI)
+settingsPanel:osKeyboardLayout:label:keymap_swedish_mac_iso,Swedish (Mac ISO)
+settingsPanel:osKeyboardLayout:label:keymap_swedish_pro_mac_ansi,Swedish (Mac Pro ANSI)
+settingsPanel:osKeyboardLayout:label:keymap_swedish_pro_mac_iso,Swedish (Mac Pro ISO)
+settingsPanel:osKeyboardLayout:label:keymap_swiss_de,German (Switzerland)
+settingsPanel:osKeyboardLayout:label:keymap_swiss_fr,French (Switzerland)
+settingsPanel:osKeyboardLayout:label:keymap_turkish_f,Turkish F (Turkey)
+settingsPanel:osKeyboardLayout:label:keymap_turkish_q,Turkish Q (Turkey)
+settingsPanel:osKeyboardLayout:label:keymap_uk,English (UK)
+settingsPanel:osKeyboardLayout:label:keymap_ukrainian,Ukrainian (Ukraine)
+settingsPanel:osKeyboardLayout:label:keymap_us,English (US)
+settingsPanel:osKeyboardLayout:label:keymap_us_extended,English (US Extended)
+settingsPanel:osKeyboardLayout:label:keymap_us_international,English (US International)
+settingsPanel:osKeyboardLayout:label:keymap_us_international_linux,English (US International Linux)
+settingsPanel:osKeyboardLayout:label:keymap_workman,Workman
+settingsPanel:osKeyboardLayout:label:keymap_workman_zxcvm,Workman ZXCVM
+settingsPanel:osKeyboardLayout:title,Host Keyboard Layout
+settingsPanel:snowflakes:label,Toggle Snowflakes
+settingsPanel:snowflakes:title,Snowflakes
+settingsPanel:title,Configurator Settings
+settingsPanel:toggleTutorial:help,MechMerlin's QMK Configurator video tutorial
+settingsPanel:toggleTutorial:label,Video Tutorial
+testKeys:label,Test Keyboard
+testKeys:title,Test Keyboard Input
+tester:back:label,Back
+tester:back:title,Return to Configurator
+tester:chatter:detectedAlert,chatter has been detected!
+tester:chatter:label,Chatter threshold (ms)
+tester:docs:paragraph,Note: Detected Key and Code may differ depending on your locale. Docs
+tester:keycodeStatus:label,Keycodes Detected
+tester:letters:code:label,code
+tester:letters:key:label,key
+tester:letters:keycode:label,keycode
+tester:page:label,Keyboard Tester
+tester:reset:label,Reset
+tester:reset:title,Reset detected keys
+tester:typewritericon:label,Click to hear typewriter sounds while testing
+toggleTerminal:label,Click to Expand
+toggleTerminal:title,Toggle the Terminal display

@@ -1,0 +1,13 @@
+{
+  "name": "QMK Configurator Dev Container",
+  "dockerFile": "Dockerfile",
+  "appPort": 5173,
+  "extensions": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "octref.vetur"
+  ],
+  "forwardPorts": [5173],
+  "postCreateCommand": "yarn install",
+  "remoteUser": "node"
+}

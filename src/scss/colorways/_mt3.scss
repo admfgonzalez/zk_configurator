@@ -1,0 +1,727 @@
+@use 'sass:color';
+@use '../mt3-abs';
+@use '../mt3-pbt';
+// MT3 Profile
+
+// MT3 3277
+.mt3-3277-kb {
+  // placeholder
+}
+
+.mt3-3277-key {
+  background: mt3-abs.$color-mt3-abs-3277-alpha;
+  color: mt3-abs.$color-mt3-abs-3277-legend;
+  input,
+  .key-contents,
+  .key-contents:empty,
+  .key-contents::before {
+    background: color.adjust(
+      mt3-abs.$color-mt3-abs-3277-alpha,
+      $lightness: -5%
+    );
+    color: mt3-abs.$color-mt3-abs-3277-legend;
+    border-color: mt3-abs.$color-mt3-abs-3277-legend;
+  }
+}
+
+.mt3-3277-mod {
+  background: mt3-abs.$color-mt3-abs-3277-mod;
+  color: mt3-abs.$color-mt3-abs-3277-legend;
+  input,
+  .key-contents,
+  .key-contents:empty,
+  .key-contents::before {
+    background: color.adjust(mt3-abs.$color-mt3-abs-3277-mod, $lightness: -5%);
+    color: mt3-abs.$color-mt3-abs-3277-legend;
+    border-color: mt3-abs.$color-mt3-abs-3277-legend;
+  }
+}
+
+.mt3-3277-ortho-kb {
+  // placeholder
+}
+
+.mt3-3277-ortho-key {
+  background: mt3-abs.$color-mt3-abs-3277-alpha;
+  color: mt3-abs.$color-mt3-abs-3277-legend;
+  input,
+  .key-contents,
+  .key-contents:empty,
+  .key-contents::before {
+    background: color.adjust(
+      mt3-abs.$color-mt3-abs-3277-alpha,
+      $lightness: -5%
+    );
+    color: mt3-abs.$color-mt3-abs-3277-legend;
+    border-color: mt3-abs.$color-mt3-abs-3277-legend;
+  }
+}
+
+.mt3-3277-ortho-mod {
+  background: mt3-abs.$color-mt3-abs-3277-mod;
+  color: mt3-abs.$color-mt3-abs-3277-legend;
+  input,
+  .key-contents,
+  .key-contents:empty,
+  .key-contents::before {
+    background: color.adjust(mt3-abs.$color-mt3-abs-3277-mod, $lightness: -5%);
+    color: mt3-abs.$color-mt3-abs-3277-legend;
+    border-color: mt3-abs.$color-mt3-abs-3277-legend;
+  }
+}
+
+.mt3-3277-accent-red-kb {
+  // placeholder
+}
+
+.mt3-3277-accent-red-key {
+  background: mt3-abs.$color-mt3-abs-3277-alpha;
+  color: mt3-abs.$color-mt3-abs-3277-legend;
+  input,
+  .key-contents,
+  .key-contents:empty,
+  .key-contents::before {
+    background: color.adjust(
+      mt3-abs.$color-mt3-abs-3277-alpha,
+      $lightness: -5%
+    );
+    color: mt3-abs.$color-mt3-abs-3277-legend;
+    border-color: mt3-abs.$color-mt3-abs-3277-legend;
+  }
+}
+
+.mt3-3277-accent-red-mod {
+  background: mt3-abs.$color-mt3-abs-3277-mod;
+  color: mt3-abs.$color-mt3-abs-3277-legend;
+  input,
+  .key-contents,
+  .key-contents:empty,
+  .key-contents::before {
+    background: color.adjust(mt3-abs.$color-mt3-abs-3277-mod, $lightness: -5%);
+    color: mt3-abs.$color-mt3-abs-3277-legend;
+    border-color: mt3-abs.$color-mt3-abs-3277-legend;
+  }
+}
+
+.mt3-3277-accent-red-accent-red {
+  background: mt3-abs.$color-mt3-abs-3277-red;
+  color: mt3-abs.$color-mt3-abs-3277-legend;
+  input,
+  .key-contents,
+  .key-contents:empty,
+  .key-contents::before {
+    background: color.adjust(mt3-abs.$color-mt3-abs-3277-red, $lightness: 5%);
+    color: mt3-abs.$color-mt3-abs-3277-legend;
+    border-color: mt3-abs.$color-mt3-abs-3277-legend;
+  }
+}
+
+// mt3 /dev/tty base graysets
+.mt3-dev-tty-key {
+  background: mt3-pbt.$color-mt3-pbt-dev-tty-alpha;
+  color: mt3-pbt.$color-mt3-pbt-black;
+  input,
+  .key-contents,
+  .key-contents:empty,
+  .key-contents::before {
+    background: color.adjust(
+      mt3-pbt.$color-mt3-pbt-dev-tty-alpha,
+      $lightness: -5%
+    );
+    color: mt3-pbt.$color-mt3-pbt-black;
+    border-color: mt3-pbt.$color-mt3-pbt-black;
+  }
+}
+
+.mt3-dev-tty-mod {
+  background: mt3-pbt.$color-mt3-pbt-dev-tty-mod;
+  color: mt3-pbt.$color-mt3-pbt-black;
+  input,
+  .key-contents,
+  .key-contents:empty,
+  .key-contents::before {
+    background: color.adjust(
+      mt3-pbt.$color-mt3-pbt-dev-tty-mod,
+      $lightness: 5%
+    );
+    color: mt3-pbt.$color-mt3-pbt-black;
+    border-color: mt3-pbt.$color-mt3-pbt-black;
+  }
+}
+
+.mt3-dev-tty-accent {
+  background: mt3-pbt.$color-mt3-pbt-dev-tty-accent-red;
+  color: mt3-pbt.$color-mt3-pbt-black;
+  input,
+  .key-contents,
+  .key-contents:empty,
+  .key-contents::before {
+    background: color.adjust(
+      mt3-pbt.$color-mt3-pbt-dev-tty-accent-red,
+      $lightness: 5%
+    );
+    color: mt3-pbt.$color-mt3-pbt-black;
+    border-color: mt3-pbt.$color-mt3-pbt-black;
+  }
+}
+
+.mt3-dev-tty-kb {
+  // placeholder
+}
+
+// mt3 /dev/tty teal set
+.mt3-dev-tty-teal-key {
+  background: mt3-pbt.$color-mt3-pbt-dev-tty-alpha;
+  color: mt3-pbt.$color-mt3-pbt-black;
+  input,
+  .key-contents,
+  .key-contents:empty,
+  .key-contents::before {
+    background: color.adjust(
+      mt3-pbt.$color-mt3-pbt-dev-tty-alpha,
+      $lightness: -5%
+    );
+    color: mt3-pbt.$color-mt3-pbt-black;
+    border-color: mt3-pbt.$color-mt3-pbt-black;
+  }
+}
+
+.mt3-dev-tty-teal-mod {
+  background: mt3-pbt.$color-mt3-pbt-dev-tty-teal;
+  color: mt3-pbt.$color-mt3-pbt-black;
+  input,
+  .key-contents,
+  .key-contents:empty,
+  .key-contents::before {
+    background: color.adjust(
+      mt3-pbt.$color-mt3-pbt-dev-tty-teal,
+      $lightness: 5%
+    );
+    color: mt3-pbt.$color-mt3-pbt-black;
+    border-color: mt3-pbt.$color-mt3-pbt-black;
+  }
+}
+
+.mt3-dev-tty-teal-kb {
+  // placeholder
+}
+
+// mt3 /dev/tty ortho graysets
+.mt3-dev-tty-ortho-key {
+  background: mt3-pbt.$color-mt3-pbt-dev-tty-alpha;
+  color: mt3-pbt.$color-mt3-pbt-black;
+  input,
+  .key-contents,
+  .key-contents:empty,
+  .key-contents::before {
+    background: color.adjust(
+      mt3-pbt.$color-mt3-pbt-dev-tty-alpha,
+      $lightness: -5%
+    );
+    color: mt3-pbt.$color-mt3-pbt-black;
+    border-color: mt3-pbt.$color-mt3-pbt-black;
+  }
+}
+
+.mt3-dev-tty-ortho-mod {
+  background: mt3-pbt.$color-mt3-pbt-dev-tty-mod;
+  color: mt3-pbt.$color-mt3-pbt-black;
+  input,
+  .key-contents,
+  .key-contents:empty,
+  .key-contents::before {
+    background: color.adjust(
+      mt3-pbt.$color-mt3-pbt-dev-tty-mod,
+      $lightness: 5%
+    );
+    color: mt3-pbt.$color-mt3-pbt-black;
+    border-color: mt3-pbt.$color-mt3-pbt-black;
+  }
+}
+
+.mt3-dev-tty-ortho-accent {
+  background: mt3-pbt.$color-mt3-pbt-dev-tty-accent-red;
+  color: mt3-pbt.$color-mt3-pbt-black;
+  input,
+  .key-contents,
+  .key-contents:empty,
+  .key-contents::before {
+    background: color.adjust(
+      mt3-pbt.$color-mt3-pbt-dev-tty-accent-red,
+      $lightness: 5%
+    );
+    color: mt3-pbt.$color-mt3-pbt-black;
+    border-color: mt3-pbt.$color-mt3-pbt-black;
+  }
+}
+
+.mt3-dev-tty-ortho-kb {
+  // placeholder
+}
+
+// MT3 LOTR
+.mt3-lotr-elvish-kb {
+  // placeholder
+}
+
+.mt3-lotr-elvish-key {
+  background: mt3-pbt.$color-mt3-pbt-elvish-alpha;
+  color: mt3-pbt.$color-mt3-pbt-black;
+  input,
+  .key-contents,
+  .key-contents:empty,
+  .key-contents::before {
+    background: color.adjust(
+      mt3-pbt.$color-mt3-pbt-elvish-alpha,
+      $lightness: -5%
+    );
+    color: mt3-pbt.$color-mt3-pbt-black;
+    border-color: mt3-pbt.$color-mt3-pbt-black;
+  }
+}
+
+.mt3-lotr-elvish-mod {
+  background: mt3-pbt.$color-mt3-pbt-elvish-mod;
+  color: mt3-pbt.$color-mt3-pbt-black;
+  input,
+  .key-contents,
+  .key-contents:empty,
+  .key-contents::before {
+    background: color.adjust(mt3-pbt.$color-mt3-pbt-elvish-mod, $lightness: 5%);
+    color: mt3-pbt.$color-mt3-pbt-black;
+    border-color: mt3-pbt.$color-mt3-pbt-black;
+  }
+}
+
+.mt3-lotr-elvish-rivendell-kb {
+  // placeholder
+}
+
+.mt3-lotr-elvish-rivendell-key {
+  background: mt3-pbt.$color-mt3-pbt-elvish-alpha;
+  color: mt3-pbt.$color-mt3-pbt-black;
+  input,
+  .key-contents,
+  .key-contents:empty,
+  .key-contents::before {
+    background: color.adjust(
+      mt3-pbt.$color-mt3-pbt-elvish-alpha,
+      $lightness: -5%
+    );
+    color: mt3-pbt.$color-mt3-pbt-black;
+    border-color: mt3-pbt.$color-mt3-pbt-black;
+  }
+}
+
+.mt3-lotr-elvish-rivendell-mod {
+  background: mt3-pbt.$color-mt3-pbt-elvish-mod;
+  color: mt3-pbt.$color-mt3-pbt-black;
+  input,
+  .key-contents,
+  .key-contents:empty,
+  .key-contents::before {
+    background: color.adjust(mt3-pbt.$color-mt3-pbt-elvish-mod, $lightness: 5%);
+    color: mt3-pbt.$color-mt3-pbt-black;
+    border-color: mt3-pbt.$color-mt3-pbt-black;
+  }
+}
+
+.mt3-lotr-elvish-rivendell-accent {
+  background: mt3-pbt.$color-mt3-pbt-elvish-rivendell;
+  color: mt3-pbt.$color-mt3-pbt-black;
+  input,
+  .key-contents,
+  .key-contents:empty,
+  .key-contents::before {
+    background: color.adjust(
+      mt3-pbt.$color-mt3-pbt-elvish-rivendell,
+      $lightness: 5%
+    );
+    color: mt3-pbt.$color-mt3-pbt-black;
+    border-color: mt3-pbt.$color-mt3-pbt-black;
+  }
+}
+
+.mt3-lotr-elvish-evenstar-kb {
+  // placeholder
+}
+
+.mt3-lotr-elvish-evenstar-key {
+  background: mt3-pbt.$color-mt3-pbt-elvish-alpha;
+  color: mt3-pbt.$color-mt3-pbt-black;
+  input,
+  .key-contents,
+  .key-contents:empty,
+  .key-contents::before {
+    background: color.adjust(
+      mt3-pbt.$color-mt3-pbt-elvish-alpha,
+      $lightness: -5%
+    );
+    color: mt3-pbt.$color-mt3-pbt-black;
+    border-color: mt3-pbt.$color-mt3-pbt-black;
+  }
+}
+
+.mt3-lotr-elvish-evenstar-mod {
+  background: mt3-pbt.$color-mt3-pbt-elvish-mod;
+  color: mt3-pbt.$color-mt3-pbt-black;
+  input,
+  .key-contents,
+  .key-contents:empty,
+  .key-contents::before {
+    background: color.adjust(mt3-pbt.$color-mt3-pbt-elvish-mod, $lightness: 5%);
+    color: mt3-pbt.$color-mt3-pbt-black;
+    border-color: mt3-pbt.$color-mt3-pbt-black;
+  }
+}
+
+.mt3-lotr-elvish-evenstar-accent {
+  background: mt3-pbt.$color-mt3-pbt-elvish-evenstar;
+  color: mt3-pbt.$color-mt3-pbt-black;
+  input,
+  .key-contents,
+  .key-contents:empty,
+  .key-contents::before {
+    background: color.adjust(
+      mt3-pbt.$color-mt3-pbt-elvish-evenstar,
+      $lightness: 5%
+    );
+    color: mt3-pbt.$color-mt3-pbt-black;
+    border-color: mt3-pbt.$color-mt3-pbt-black;
+  }
+}
+
+.mt3-lotr-elvish-ortho-kb {
+  // placeholder
+}
+
+.mt3-lotr-elvish-ortho-key {
+  background: mt3-pbt.$color-mt3-pbt-elvish-alpha;
+  color: mt3-pbt.$color-mt3-pbt-black;
+  input,
+  .key-contents,
+  .key-contents:empty,
+  .key-contents::before {
+    background: color.adjust(
+      mt3-pbt.$color-mt3-pbt-elvish-alpha,
+      $lightness: -5%
+    );
+    color: mt3-pbt.$color-mt3-pbt-black;
+    border-color: mt3-pbt.$color-mt3-pbt-black;
+  }
+}
+
+.mt3-lotr-elvish-ortho-mod {
+  background: mt3-pbt.$color-mt3-pbt-elvish-mod;
+  color: mt3-pbt.$color-mt3-pbt-black;
+  input,
+  .key-contents,
+  .key-contents:empty,
+  .key-contents::before {
+    background: color.adjust(mt3-pbt.$color-mt3-pbt-elvish-mod, $lightness: 5%);
+    color: mt3-pbt.$color-mt3-pbt-black;
+    border-color: mt3-pbt.$color-mt3-pbt-black;
+  }
+}
+
+.mt3-lotr-dwarvish-ortho-kb {
+  // placeholder
+}
+
+.mt3-lotr-dwarvish-ortho-key {
+  background: mt3-pbt.$color-mt3-pbt-dwarvish-alpha;
+  color: mt3-pbt.$color-mt3-pbt-black;
+  input,
+  .key-contents,
+  .key-contents:empty,
+  .key-contents::before {
+    background: color.adjust(
+      mt3-pbt.$color-mt3-pbt-dwarvish-alpha,
+      $lightness: -5%
+    );
+    color: mt3-pbt.$color-mt3-pbt-black;
+    border-color: mt3-pbt.$color-mt3-pbt-black;
+  }
+}
+
+.mt3-lotr-dwarvish-ortho-mod {
+  background: mt3-pbt.$color-mt3-pbt-dwarvish-mod;
+  color: mt3-pbt.$color-mt3-pbt-black;
+  input,
+  .key-contents,
+  .key-contents:empty,
+  .key-contents::before {
+    background: color.adjust(
+      mt3-pbt.$color-mt3-pbt-dwarvish-mod,
+      $lightness: 5%
+    );
+    color: mt3-pbt.$color-mt3-pbt-black;
+    border-color: mt3-pbt.$color-mt3-pbt-black;
+  }
+}
+
+.mt3-lotr-dwarvish-durin-kb {
+  // placeholder
+}
+
+.mt3-lotr-dwarvish-durin-key {
+  background: mt3-pbt.$color-mt3-pbt-dwarvish-alpha;
+  color: mt3-pbt.$color-mt3-pbt-black;
+  input,
+  .key-contents,
+  .key-contents:empty,
+  .key-contents::before {
+    background: color.adjust(
+      mt3-pbt.$color-mt3-pbt-dwarvish-alpha,
+      $lightness: -5%
+    );
+    color: mt3-pbt.$color-mt3-pbt-black;
+    border-color: mt3-pbt.$color-mt3-pbt-black;
+  }
+}
+
+.mt3-lotr-dwarvish-durin-mod {
+  background: mt3-pbt.$color-mt3-pbt-dwarvish-mod;
+  color: mt3-pbt.$color-mt3-pbt-black;
+  input,
+  .key-contents,
+  .key-contents:empty,
+  .key-contents::before {
+    background: color.adjust(
+      mt3-pbt.$color-mt3-pbt-dwarvish-mod,
+      $lightness: 5%
+    );
+    color: mt3-pbt.$color-mt3-pbt-black;
+    border-color: mt3-pbt.$color-mt3-pbt-black;
+  }
+}
+
+.mt3-lotr-dwarvish-durin-accent {
+  background: mt3-pbt.$color-mt3-pbt-dwarvish-durin;
+  color: mt3-pbt.$color-mt3-pbt-black;
+  input,
+  .key-contents,
+  .key-contents:empty,
+  .key-contents::before {
+    background: color.adjust(
+      mt3-pbt.$color-mt3-pbt-dwarvish-durin,
+      $lightness: 5%
+    );
+    color: mt3-pbt.$color-mt3-pbt-black;
+    border-color: mt3-pbt.$color-mt3-pbt-black;
+  }
+}
+
+.mt3-lotr-dwarvish-kb {
+  // placeholder
+}
+
+.mt3-lotr-dwarvish-key {
+  background: mt3-pbt.$color-mt3-pbt-dwarvish-alpha;
+  color: mt3-pbt.$color-mt3-pbt-black;
+  input,
+  .key-contents,
+  .key-contents:empty,
+  .key-contents::before {
+    background: color.adjust(
+      mt3-pbt.$color-mt3-pbt-dwarvish-alpha,
+      $lightness: -5%
+    );
+    color: mt3-pbt.$color-mt3-pbt-black;
+    border-color: mt3-pbt.$color-mt3-pbt-black;
+  }
+}
+
+.mt3-lotr-dwarvish-mod {
+  background: mt3-pbt.$color-mt3-pbt-dwarvish-mod;
+  color: mt3-pbt.$color-mt3-pbt-black;
+  input,
+  .key-contents,
+  .key-contents:empty,
+  .key-contents::before {
+    background: color.adjust(
+      mt3-pbt.$color-mt3-pbt-dwarvish-mod,
+      $lightness: 5%
+    );
+    color: mt3-pbt.$color-mt3-pbt-black;
+    border-color: mt3-pbt.$color-mt3-pbt-black;
+  }
+}
+
+// mt3 susuwatari base colourway
+.mt3-susuwatari-key {
+  background: mt3-abs.$color-mt3-abs-susu-alpha;
+  color: mt3-abs.$color-mt3-abs-white;
+  input,
+  .key-contents,
+  .key-contents:empty,
+  .key-contents::before {
+    background: color.adjust(
+      mt3-abs.$color-mt3-abs-susu-alpha,
+      $lightness: -5%
+    );
+    color: mt3-abs.$color-mt3-abs-white;
+    border-color: mt3-abs.$color-mt3-abs-white;
+  }
+}
+
+.mt3-susuwatari-mod-blue {
+  background: mt3-abs.$color-mt3-abs-susu-mod;
+  color: mt3-abs.$color-mt3-abs-susu-legend-blue;
+  input,
+  .key-contents,
+  .key-contents:empty,
+  .key-contents::before {
+    background: color.adjust(mt3-abs.$color-mt3-abs-susu-mod, $lightness: -5%);
+    color: mt3-abs.$color-mt3-abs-susu-legend-blue;
+    border-color: mt3-abs.$color-mt3-abs-susu-legend-blue;
+  }
+}
+
+.mt3-susuwatari-mod {
+  background: mt3-abs.$color-mt3-abs-susu-mod;
+  color: mt3-abs.$color-mt3-abs-white;
+  input,
+  .key-contents,
+  .key-contents:empty,
+  .key-contents::before {
+    background: color.adjust(mt3-abs.$color-mt3-abs-susu-mod, $lightness: -5%);
+    color: mt3-abs.$color-mt3-abs-white;
+    border-color: mt3-abs.$color-mt3-abs-white;
+  }
+}
+
+.mt3-susuwatari-mod-green {
+  background: mt3-abs.$color-mt3-abs-susu-mod;
+  color: mt3-abs.$color-mt3-abs-susu-legend-green;
+  input,
+  .key-contents,
+  .key-contents:empty,
+  .key-contents::before {
+    background: color.adjust(mt3-abs.$color-mt3-abs-susu-mod, $lightness: -5%);
+    color: mt3-abs.$color-mt3-abs-susu-legend-green;
+    border-color: mt3-abs.$color-mt3-abs-susu-legend-green;
+  }
+}
+
+.mt3-susuwatari-accent {
+  background: mt3-abs.$color-mt3-abs-susu-accent-red;
+  color: mt3-abs.$color-mt3-abs-white;
+  input,
+  .key-contents,
+  .key-contents:empty,
+  .key-contents::before {
+    background: color.adjust(
+      mt3-abs.$color-mt3-abs-susu-accent-red,
+      $lightness: -5%
+    );
+    color: mt3-abs.$color-mt3-abs-white;
+    border-color: mt3-abs.$color-mt3-abs-white;
+  }
+}
+
+.mt3-susuwatari-accent-red {
+  background: mt3-abs.$color-mt3-abs-susu-mod;
+  color: mt3-abs.$color-mt3-abs-susu-legend-red;
+  input,
+  .key-contents,
+  .key-contents:empty,
+  .key-contents::before {
+    background: color.adjust(mt3-abs.$color-mt3-abs-susu-mod, $lightness: -5%);
+    color: mt3-abs.$color-mt3-abs-susu-legend-red;
+    border-color: mt3-abs.$color-mt3-abs-susu-legend-red;
+  }
+}
+
+.mt3-susuwatari-kb {
+  // placeholder
+}
+
+// mt3 susuwatari ortho colourway
+.mt3-susuwatari-ortho-key {
+  background: mt3-abs.$color-mt3-abs-susu-alpha;
+  color: mt3-abs.$color-mt3-abs-white;
+  input,
+  .key-contents,
+  .key-contents:empty,
+  .key-contents::before {
+    background: color.adjust(
+      mt3-abs.$color-mt3-abs-susu-alpha,
+      $lightness: -5%
+    );
+    color: mt3-abs.$color-mt3-abs-white;
+    border-color: mt3-abs.$color-mt3-abs-white;
+  }
+}
+
+.mt3-susuwatari-ortho-mod-blue {
+  background: mt3-abs.$color-mt3-abs-susu-mod;
+  color: mt3-abs.$color-mt3-abs-susu-legend-blue;
+  input,
+  .key-contents,
+  .key-contents:empty,
+  .key-contents::before {
+    background: color.adjust(mt3-abs.$color-mt3-abs-susu-mod, $lightness: -5%);
+    color: mt3-abs.$color-mt3-abs-susu-legend-blue;
+    border-color: mt3-abs.$color-mt3-abs-susu-legend-blue;
+  }
+}
+
+.mt3-susuwatari-ortho-mod {
+  background: mt3-abs.$color-mt3-abs-susu-mod;
+  color: mt3-abs.$color-mt3-abs-white;
+  input,
+  .key-contents,
+  .key-contents:empty,
+  .key-contents::before {
+    background: color.adjust(mt3-abs.$color-mt3-abs-susu-mod, $lightness: -5%);
+    color: mt3-abs.$color-mt3-abs-white;
+    border-color: mt3-abs.$color-mt3-abs-white;
+  }
+}
+
+.mt3-susuwatari-ortho-accent {
+  background: mt3-abs.$color-mt3-abs-susu-accent-red;
+  color: mt3-abs.$color-mt3-abs-white;
+  input,
+  .key-contents,
+  .key-contents:empty,
+  .key-contents::before {
+    background: color.adjust(
+      mt3-abs.$color-mt3-abs-susu-accent-red,
+      $lightness: -5%
+    );
+    color: mt3-abs.$color-mt3-abs-white;
+    border-color: mt3-abs.$color-mt3-abs-white;
+  }
+}
+
+.mt3-susuwatari-ortho-lwr {
+  background: mt3-abs.$color-mt3-abs-susu-mod;
+  color: mt3-abs.$color-mt3-abs-susu-legend-green;
+  input,
+  .key-contents,
+  .key-contents:empty,
+  .key-contents::before {
+    background: color.adjust(mt3-abs.$color-mt3-abs-susu-mod, $lightness: -5%);
+    color: mt3-abs.$color-mt3-abs-susu-legend-green;
+    border-color: mt3-abs.$color-mt3-abs-susu-legend-green;
+  }
+}
+
+.mt3-susuwatari-ortho-rse {
+  background: mt3-abs.$color-mt3-abs-susu-mod;
+  color: mt3-abs.$color-mt3-abs-susu-legend-red;
+  input,
+  .key-contents,
+  .key-contents:empty,
+  .key-contents::before {
+    background: color.adjust(mt3-abs.$color-mt3-abs-susu-mod, $lightness: -5%);
+    color: mt3-abs.$color-mt3-abs-susu-legend-red;
+    border-color: mt3-abs.$color-mt3-abs-susu-legend-red;
+  }
+}
+
+.mt3-susuwatari-ortho-kb {
+  // placeholder
+}
