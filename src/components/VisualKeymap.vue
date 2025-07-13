@@ -58,7 +58,7 @@ export default {
           width: `${this.width}px`,
           height: `${this.height}px`
         },
-        'font-family': this.font
+        'font-family': `${this.font}`
       };
     },
     ...mapState('keymap', ['config', 'layer']),

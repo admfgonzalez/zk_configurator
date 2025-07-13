@@ -14,6 +14,9 @@ import '@fontsource/roboto-mono/400.css';
 import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/700.css';
 import '@fontsource/montserrat/400.css';
+import '@fontsource/fira-code/400.css';
+import '@fontsource/jetbrains-mono/400.css';
+import '@fontsource/source-code-pro/400.css';
 
 Vue.use(VueI18n);
 Vue.use(VTooltip);

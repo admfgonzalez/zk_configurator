@@ -100,6 +100,10 @@ export default {
       fonts: [
         'Roboto',
         'Roboto Mono',
+        'Fira Code',
+        'JetBrains Mono',
+        'Consolas',
+        'Source Code Pro',
         'serif',
         'Arial',
         'Verdana',

@@ -25,7 +25,7 @@ const state = {
   loadingKeymapPromise: undefined,
   colorways: colorways.list,
   colorwayIndex: random(colorways.list.length - 1),
-  font: 'Roboto',
+  font: 'Fira Code',
   continuousInput: false,
   ignoreMod: false,
   templates: {
