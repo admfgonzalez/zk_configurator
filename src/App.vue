@@ -81,14 +81,13 @@ import SettingsPanel from '@/components/SettingsPanel.vue';
 import { createNamespacedHelpers, mapActions, mapGetters } from 'vuex';
 const { mapState, mapMutations } = createNamespacedHelpers('app');
 import isFunction from 'lodash/isFunction';
-import SnowFlake from '@/components/SnowFlake.vue';
+
 
 export default {
   name: 'app',
   components: {
     Spinner,
-    InfoBar,
-    SnowFlake
+    InfoBar
   },
   data() {
     return {

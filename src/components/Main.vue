@@ -73,6 +73,23 @@
               {{ name }}
             </option>
           </select>
+          &nbsp;
+          <select
+            class="keymap--keyset"
+            id="font-size-select"
+            v-model="curFontSize"
+            @focus="focus"
+            @blur="blur"
+          >
+            <option
+              class="option"
+              v-for="(size, index) in fontSizes"
+              :key="index"
+              :value="size"
+            >
+              {{ size }}mm
+            </option>
+          </select>
         </div>
         <visualKeymap :profile="false" />
         <span class="keymap--count"
@@ -109,7 +126,8 @@ export default {
         'Verdana',
         'Courier New',
         'Times New Roman'
-      ]
+      ],
+      fontSizes: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7, 7.5, 8, 8.5, 9]
     };
   },
   components: {
@@ -123,13 +141,21 @@ export default {
     ...mapState('app', ['appInitialized', 'configuratorSettings']),
     ...mapGetters('app', ['keyCount']),
     ...mapState('keymap', ['continuousInput']),
-    ...mapGetters('keymap', ['colorwayIndex', 'colorways', 'size', 'font']),
+    ...mapGetters('keymap', ['colorwayIndex', 'colorways', 'size', 'font', 'fontSize']),
     curFont: {
       get() {
         return this.font;
       },
       set(value) {
         this.setFont(value);
+      }
+    },
+    curFontSize: {
+      get() {
+        return this.fontSize;
+      },
+      set(value) {
+        this.setFontSize(value);
       }
     },
     curIndex: {
@@ -175,7 +201,7 @@ export default {
   },
   methods: {
     ...mapActions('app', ['setFavoriteColor', 'initKeypressListener']),
-    ...mapMutations('keymap', ['nextColorway', 'setFont']),
+    ...mapMutations('keymap', ['nextColorway', 'setFont', 'setFontSize']),
     ...mapMutations('app', [
       'resetListener',
       'stopListening',

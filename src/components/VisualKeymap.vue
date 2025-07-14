@@ -39,8 +39,8 @@ export default {
   },
   computed: {
     styles() {
-      let keySize = 0.85;
-      let smolKeySize = 0.61;
+      let keySize = this.fontSize;
+      let smolKeySize = this.fontSize * 0.7;
       if (this.config.SCALE < 1) {
         keySize *= (1 + this.config.SCALE) / 2;
         smolKeySize *= (1 + this.config.SCALE) / 2;
@@ -49,8 +49,8 @@ export default {
         ...{
           '--unit-width': '1',
           '--unit-height': '1',
-          '--default-smaller-key-font-size': `${smolKeySize}rem`,
-          '--default-key-font-size': `${keySize}rem`,
+          '--default-smaller-key-font-size': `${smolKeySize}mm`,
+          '--default-key-font-size': `${keySize}mm`,
           '--default-key-height': `${this.config.KEY_HEIGHT}px`,
           '--default-key-width': `${this.config.KEY_WIDTH}px`,
           '--default-key-x-spacing': `${this.config.KEY_X_SPACING}px`,
@@ -67,7 +67,8 @@ export default {
       'loadingKeymapPromise',
       'colorway',
       'defaults',
-      'font'
+      'font',
+      'fontSize'
     ]),
     ...mapState('app', ['layout', 'layouts', 'legends', 'previewRequested']),
     currentLayer() {

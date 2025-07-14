@@ -26,6 +26,7 @@ const state = {
   colorways: colorways.list,
   colorwayIndex: random(colorways.list.length - 1),
   font: 'Fira Code',
+  fontSize: 4.5,
   continuousInput: false,
   ignoreMod: false,
   templates: {
@@ -43,6 +44,7 @@ const getters = {
   colorwayOverride: (state) => state.colorways[state.colorwayIndex].override,
   colorwayIndex: (state) => state.colorwayIndex,
   font: (state) => state.font,
+  fontSize: (state) => state.fontSize,
   loadingKeymapPromise: (state) => state.loadingKeymapPromise,
   defaults: (state) => Object.assign({}, state.defaults),
   getSelectedKey: (state) => state.selectedIndex,
@@ -447,6 +449,9 @@ const mutations = {
   },
   setFont(state, font) {
     state.font = font;
+  },
+  setFontSize(state, fontSize) {
+    state.fontSize = fontSize;
   },
   toggleContinuousInput(state) {
     state.continuousInput = !state.continuousInput;

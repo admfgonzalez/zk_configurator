@@ -2,8 +2,7 @@ import isUndefined from 'lodash/isUndefined';
 import { keypress } from 'keypress.js';
 import { generateKeypressCombos } from './keypress-utils.js';
 import {
-  backend_keyboards_url,
-  backend_keyboard_list_url
+  backend_keyboards_url
 } from '@/store/modules/constants';
 import { getPreferredLayout, getExclusionList } from '@/util';
 import { localStorageSet, CONSTS } from '@/store/localStorage';
