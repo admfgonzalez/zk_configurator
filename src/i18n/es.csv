@@ -130,25 +130,25 @@ settingsPanel:osKeyboardLayout:label:keymap_colemak,
 settingsPanel:osKeyboardLayout:label:keymap_croatian,
 settingsPanel:osKeyboardLayout:label:keymap_czech,
 settingsPanel:osKeyboardLayout:label:keymap_danish,
-settingsPanel:osKeyboardLayout:label:keymap_dvorak,
+settingsPanel:osKeyboardLayout:label:keymap_dvorak,dvorak
 settingsPanel:osKeyboardLayout:label:keymap_dvorak_fr,
-settingsPanel:osKeyboardLayout:label:keymap_dvorak_programmer,
+settingsPanel:osKeyboardLayout:label:keymap_dvorak_programmer,dvorak programador
 settingsPanel:osKeyboardLayout:label:keymap_estonian,
 settingsPanel:osKeyboardLayout:label:keymap_finnish,
-settingsPanel:osKeyboardLayout:label:keymap_french,
+settingsPanel:osKeyboardLayout:label:keymap_french,Frances
 settingsPanel:osKeyboardLayout:label:keymap_french_afnor,
 settingsPanel:osKeyboardLayout:label:keymap_french_mac_iso,
 settingsPanel:osKeyboardLayout:label:keymap_german,Alemán (Alemania y Austria)
 settingsPanel:osKeyboardLayout:label:keymap_greek,
-settingsPanel:osKeyboardLayout:label:keymap_hebrew,
+settingsPanel:osKeyboardLayout:label:keymap_hebrew,Hebreo
 settingsPanel:osKeyboardLayout:label:keymap_hungarian,
 settingsPanel:osKeyboardLayout:label:keymap_icelandic,
 settingsPanel:osKeyboardLayout:label:keymap_irish,
 settingsPanel:osKeyboardLayout:label:keymap_italian,
 settingsPanel:osKeyboardLayout:label:keymap_italian_mac_ansi,
 settingsPanel:osKeyboardLayout:label:keymap_italian_mac_iso,
-settingsPanel:osKeyboardLayout:label:keymap_japanese,
-settingsPanel:osKeyboardLayout:label:keymap_korean,
+settingsPanel:osKeyboardLayout:label:keymap_japanese,Japonés
+settingsPanel:osKeyboardLayout:label:keymap_korean,Koreano
 settingsPanel:osKeyboardLayout:label:keymap_latvian,
 settingsPanel:osKeyboardLayout:label:keymap_lithuanian_azerty,
 settingsPanel:osKeyboardLayout:label:keymap_lithuanian_qwerty,
@@ -156,7 +156,7 @@ settingsPanel:osKeyboardLayout:label:keymap_neo2,
 settingsPanel:osKeyboardLayout:label:keymap_norman,
 settingsPanel:osKeyboardLayout:label:keymap_norwegian,
 settingsPanel:osKeyboardLayout:label:keymap_polish,
-settingsPanel:osKeyboardLayout:label:keymap_portuguese,
+settingsPanel:osKeyboardLayout:label:keymap_portuguese,Portugues
 settingsPanel:osKeyboardLayout:label:keymap_portuguese_mac_iso,
 settingsPanel:osKeyboardLayout:label:keymap_romanian,
 settingsPanel:osKeyboardLayout:label:keymap_russian,Ruso
@@ -180,8 +180,8 @@ settingsPanel:osKeyboardLayout:label:keymap_uk,Inglés (Reino Unido)
 settingsPanel:osKeyboardLayout:label:keymap_ukrainian,
 settingsPanel:osKeyboardLayout:label:keymap_us,Inglés (Estados Unidos)
 settingsPanel:osKeyboardLayout:label:keymap_us_extended,
-settingsPanel:osKeyboardLayout:label:keymap_us_international,
-settingsPanel:osKeyboardLayout:label:keymap_us_international_linux,
+settingsPanel:osKeyboardLayout:label:keymap_us_international,Inglés (Estados Unidos Internacional)
+settingsPanel:osKeyboardLayout:label:keymap_us_international_linux,Inglés (Estados Unidos Internacional Linux)
 settingsPanel:osKeyboardLayout:label:keymap_workman,
 settingsPanel:osKeyboardLayout:label:keymap_workman_zxcvm,
 settingsPanel:osKeyboardLayout:title,

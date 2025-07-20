@@ -90,12 +90,28 @@
               {{ size }}mm
             </option>
           </select>
+          &nbsp;
+          <select
+            class="keymap--keyset"
+            id="os-keyboard-layout-select"
+            v-model="osKeyboardLayout"
+            @focus="focus"
+            @blur="blur"
+          >
+            <option
+              v-for="osLayout in sortedOSKeyboardLayouts"
+              :key="osLayout"
+              :value="osLayout"
+            >
+              {{ $t(`settingsPanel.osKeyboardLayout.label.${osLayout}`) }}
+            </option>
+          </select>
         </div>
+
         <visualKeymap :profile="false" />
         <span class="keymap--count"
           ><span class="keymap--counter">{{ keyCount }}</span
-          >Keys</span
-        >
+          >Keys</span>
       </div>
     </div>
   </div>
@@ -138,10 +154,33 @@ export default {
     LayerControl
   },
   computed: {
-    ...mapState('app', ['appInitialized', 'configuratorSettings']),
+    ...mapState('app', ['appInitialized', 'configuratorSettings', 'osKeyboardLayouts']),
     ...mapGetters('app', ['keyCount']),
     ...mapState('keymap', ['continuousInput']),
     ...mapGetters('keymap', ['colorwayIndex', 'colorways', 'size', 'font', 'fontSize']),
+    osKeyboardLayout: {
+      get() {
+        return this.configuratorSettings.osKeyboardLayout;
+      },
+      async set(value) {
+        try {
+          await this.changeOSKeyboardLayout(value);
+        } catch (error) {
+          console.error(
+            'Setting a new value for the OS keyboard layout failed!',
+            error
+          );
+        }
+      }
+    },
+    sortedOSKeyboardLayouts: function () {
+      // Locale-aware sort of the OS keyboard layouts by their labels.
+      const translatedLayoutName = (osLayout) =>
+        this.$t(`settingsPanel.osKeyboardLayout.label.${osLayout}`);
+      return [...this.osKeyboardLayouts].sort((a, b) =>
+        translatedLayoutName(a).localeCompare(translatedLayoutName(b))
+      );
+    },
     curFont: {
       get() {
         return this.font;
@@ -200,7 +239,7 @@ export default {
     }
   },
   methods: {
-    ...mapActions('app', ['setFavoriteColor', 'initKeypressListener']),
+    ...mapActions('app', ['setFavoriteColor', 'initKeypressListener', 'changeOSKeyboardLayout']),
     ...mapMutations('keymap', ['nextColorway', 'setFont', 'setFontSize']),
     ...mapMutations('app', [
       'resetListener',
@@ -278,7 +317,7 @@ export default {
 }
 .keymap--area {
   margin-top: 1em;
-  margin-bottom: 1em;
-  height: 1.5em;
+  margin-bottom: 2em; /* Increased margin */
+  overflow: hidden; /* Clearfix */
 }
 </style>

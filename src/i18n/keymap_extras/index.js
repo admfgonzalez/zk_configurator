@@ -442,6 +442,13 @@ export default {
     locales: ['sl', 'sl-SI'],
     keycodeLUT: slovenian
   },
+  keymap_spanish: {
+    prefix: 'ES',
+    sendstring: 'spanish',
+    isANSI: false,
+    locales: ['ca-ES', 'es', 'es-ES', 'eu-ES', 'gl-ES'],
+    keycodeLUT: spanish
+  },
   keymap_spanish_dvorak: {
     prefix: 'DV',
     sendstring: 'spanish_dvorak',

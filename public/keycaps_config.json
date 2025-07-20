@@ -1,0 +1,59 @@
+{
+  "keycaps": [
+    {
+      "name": "DSA",
+      "enabled": true,
+      "description": "DSA keycaps are uniform in profile and height, making them suitable",
+      "colors": [
+        {
+          "name": "Negro",
+          "hex": "#000000"
+        },
+        {
+          "name": "Blanco",
+          "hex": "#FFFFFF"
+        },
+        {
+          "name": "Rojo",
+          "hex": "#FF0000"
+        },
+        {
+          "name": "Azul",
+          "hex": "#0000FF"
+        },
+        {
+          "name": "Verde",
+          "hex": "#32a85e"
+        },
+        {
+          "name": "Lila",
+          "hex": "#800080"
+        },
+        {
+          "name": "Amarillo",
+          "hex": "#FFFF00"
+        },
+        {
+          "name": "Naranja",
+          "hex": "#FFA500"
+        }
+      ]
+
+    },
+    {
+      "name": "OEM",
+      "enabled": false,
+      "description": "OEM keycaps are the standard profile used by many manufacturers, known for"
+    },
+    {
+      "name": "XDA",
+      "enabled": false,
+      "description": "XDA keycaps have a flat profile with a larger surface area"
+    },
+    {
+      "name": "Choc",
+      "enabled": false,
+      "description": "Choc keycaps are designed for low-profile switches, providing a sleek"
+    }
+]
+}

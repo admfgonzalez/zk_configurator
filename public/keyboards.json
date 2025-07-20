@@ -2,9 +2,6 @@
     "last_updated": "2025-06-09 01:48:35 GMT",
     "keyboards": [
         "crkbd/rev1",
-        "crkbd/rev4_1/standard",
-        "lily58/glow_enc",
-        "lily58/light",
         "lily58/rev1",
         "sofle/rev1",
         "reviung/reviung41"

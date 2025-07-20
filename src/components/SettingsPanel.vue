@@ -86,6 +86,7 @@
           <option v-for="l in languages" :key="l.value" :value="l.value">
             {{ l.label }}
           </option>
+          <option value="es">Español</option>
         </select>
       </div>
       <div>

@@ -60,6 +60,11 @@ export default {
       return classes.join(' ');
     },
     displayName() {
+      const layout = this.$store.state.app.configuratorSettings.osKeyboardLayout;
+      const keymap = this.$store.state.keymap.keymap;
+      if (keymap && keymap[this.layer] && keymap[this.layer][this.code]) {
+        return keymap[this.layer][this.code].name;
+      }
       return this.name;
     },
     displayTitle() {
